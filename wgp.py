@@ -9783,4 +9783,4 @@ if __name__ == "__main__":
             url = "http://" + server_name 
         webbrowser.open(url + ":" + str(server_port), new = 0, autoraise = True)
     # demo.launch(favicon_path="favicon.png", server_name=server_name, server_port=server_port, share=False, allowed_paths=list({save_path, image_save_path}))
-    demo.launch(favicon_path="favicon.png", share=True, allow_flagging="never", allowed_paths=list({save_path, image_save_path}))
+    demo.launch(favicon_path="favicon.png", share=True, allowed_paths=list({save_path, image_save_path}))
